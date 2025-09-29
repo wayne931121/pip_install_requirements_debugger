@@ -239,3 +239,6 @@ note: This error originates from a subprocess, and is likely not a problem with 
 
 (C:\ai) C:\Users\原神>
 ```
+
+## The solution for install rvc failed above
+https://github.com/facebookresearch/fairseq/issues/5511#issuecomment-2343923840
