@@ -247,3 +247,12 @@ https://github.com/oobabooga/text-generation-webui/issues/3261#issuecomment-2614
 https://github.com/gradio-app/gradio/issues/6339#issue-1982978174<br>
 https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/2411#issuecomment-2566927653<br>
 https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/2227#issuecomment-2286582025
+
+## What I change for rvc script in my computer
+```
+#in cmd
+set USE_LIBUV=0
+set KMP_DUPLICATE_LIB_OK=TRUE
+
+#in infer-web.py: remove concurrency_count argument
+```
