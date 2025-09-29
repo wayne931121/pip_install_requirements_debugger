@@ -244,4 +244,6 @@ note: This error originates from a subprocess, and is likely not a problem with 
 https://github.com/facebookresearch/fairseq/issues/5511#issuecomment-2343923840<br>
 https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/1103#issuecomment-1697800003<br>
 https://github.com/oobabooga/text-generation-webui/issues/3261#issuecomment-2614447205<br>
-https://github.com/gradio-app/gradio/issues/6339#issue-1982978174
+https://github.com/gradio-app/gradio/issues/6339#issue-1982978174<br>
+https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/2411#issuecomment-2566927653<br>
+https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/issues/2227#issuecomment-2286582025
