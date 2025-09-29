@@ -1,5 +1,5 @@
 # pip_install_requirements_debugger
-when i install rvc requirements.txt, i failed, so i wrote this script for me.
+when i install rvc requirements.txt today(20250929), i failed, so i wrote this script for me.
 
 # Usage
 ```
