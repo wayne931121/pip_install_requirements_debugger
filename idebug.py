@@ -7,7 +7,7 @@ with open(f,"r",encoding="utf-8") as f1:
     f2 = f1.read().split("\n")
     
 for i in f2:
-    if not i:
+    if not i or "#" in i:
         continue
     try:
         print("pip install "+i,end="\n\n")
@@ -31,5 +31,4 @@ for i in f2:
         print("STDOUT:", e.stdout)
         print("STDERR:", e.stderr)
         
-
         sys.exit()
