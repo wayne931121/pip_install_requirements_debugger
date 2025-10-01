@@ -18,7 +18,7 @@ for i in f2:
         i1 = i.split(";")
         i = i1[0]
         i2 = ";".join(i1[1:])
-        print("Warning: don't support advanced syntax, ignore "+i2)
+        print("Warning: idebug.py don't support advanced syntax, ignore "+i2)
     try:
         print("pip install "+i,end="\n\n")
         result = subprocess.run(
@@ -42,3 +42,4 @@ for i in f2:
         print("STDERR:", e.stderr)
         
         sys.exit()
+
