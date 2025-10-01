@@ -266,3 +266,15 @@ python sdebug.py requirements.txt bug.py
 rem bug.py will throw if there is a bug
 rem sdebug.py will detect bug
 ```
+#### custom bug.py
+bug.py structure
+```py
+#This script will be error after some package install
+#We need to find that package is what
+#This script use by sdebug.py
+# The code will put below
+import torch
+# The code will put above
+#if nothing happen, no error, then output No bug.
+print("No Bug.")
+```
