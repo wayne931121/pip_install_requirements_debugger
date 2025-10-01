@@ -5,10 +5,20 @@ f = sys.argv[1]
 
 with open(f,"r",encoding="utf-8") as f1:
     f2 = f1.read().split("\n")
-    
+
+# Warning: idebug.py don't support advanced syntax, only support basic syntax
+# if the requirement.txt use advanced syntax, the script may occurred error
+# if you want to support advanced syntax, you can write your own script
+# the script is created and modify by wayne931121 cc-by-nc 4.0, last update 20251001.
+
 for i in f2:
     if not i or "#" in i:
         continue
+    if ";" in i:
+        i1 = i.split(";")
+        i = i1[0]
+        i2 = ";".join(i1[1:])
+        print("Warning: don't support advanced syntax, ignore "+i2)
     try:
         print("pip install "+i,end="\n\n")
         result = subprocess.run(
