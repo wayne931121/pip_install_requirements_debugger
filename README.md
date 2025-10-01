@@ -256,3 +256,13 @@ set KMP_DUPLICATE_LIB_OK=TRUE
 
 #in infer-web.py: remove concurrency_count argument
 ```
+
+# sdebug.py
+## if after install some package, torch will be break, and you don't know what package do
+This script write by me because after install some package, my torch break, i cannot import torch, and search network, no anwser, so i recreate env and clone env, then use this script test.
+### Usage
+```cmd
+python sdebug.py requirements.txt bug.py
+rem bug.py will throw if there is a bug
+rem sdebug.py will detect bug
+```
