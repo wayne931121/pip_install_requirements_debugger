@@ -280,6 +280,7 @@ print("No Bug.")
 ```
 
 # Some other errors record
+## Error1 Record
 ```cmd
 C:\Users\原神>D:
 
