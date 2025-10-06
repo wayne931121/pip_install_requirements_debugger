@@ -426,4 +426,4 @@ https://github.com/deepspeedai/DeepSpeed#windows
 https://github.com/deepspeedai/DeepSpeed/issues/6923
 
 ### Solution
-https://github.com/deepspeedai/DeepSpeed/issues/6923
+http://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md#building-from-source
