@@ -429,3 +429,9 @@ https://www.google.com/search?q=No+module+named+build&oq=No+module+named+build&g
 
 ### Main Solution
 http://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md#building-from-source
+
+### Problem2
+https://github.com/neonbjb/tortoise-tts/issues/556
+
+### Solution2
+https://github.com/neonbjb/tortoise-tts/issues/556#issuecomment-1883569462
