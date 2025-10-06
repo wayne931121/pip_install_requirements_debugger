@@ -448,3 +448,7 @@ https://github.com/neonbjb/tortoise-tts/issues/556#issuecomment-1883569462
 
 ### Finally
 after success build and install deepspeed, run ```pip install SwissArmyTransformer``` success.
+
+
+## Error2 Record
+No moudle name torch in notebook? My problem is my notebook installed in cpmputer, but not install in current conda env, so solution is ```pip install notebook```.
