@@ -1,4 +1,4 @@
-# pip_install_requirements_debugger
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16b52f72-733a-428d-aaf4-18d1373b581b" /># pip_install_requirements_debugger
 when i install rvc requirements.txt today(20250929), i failed, so i wrote this script for me.
 
 # Usage
@@ -435,3 +435,6 @@ https://github.com/neonbjb/tortoise-tts/issues/556
 
 ### Solution2
 https://github.com/neonbjb/tortoise-tts/issues/556#issuecomment-1883569462
+
+### Finally
+after success build and install deepspeed, run pip install SwissArmyTransformer success.
