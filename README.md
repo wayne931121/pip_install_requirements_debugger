@@ -399,3 +399,31 @@ hint: See above for details.
 
 (D:\aii) D:\>
 ```
+
+### Prolbem
+...so many...
+
+https://github.com/zai-org/CogVideo/blob/main/requirements.txt
+
+https://github.com/THUDM/SwissArmyTransformer/blob/main/requirements.txt
+
+https://www.google.com/search?q=ModuleNotFoundError%3A+No+module+named+%27cpuinfo%27&oq=ModuleNotFoundError%3A+No+module+named+%27cpuinfo%27&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg6MgYIAhBFGDwyBggDEEUYPNIBBzQ1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+https://github.com/deepspeedai/DeepSpeed/issues/4669
+
+https://www.google.com/search?q=ERROR%3A+Failed+building+wheel+for+deepspeed&oq=ERROR%3A+Failed+building+wheel+for+deepspeed&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHMjYwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/73264234/pytorch-error-checking-compiler-version-for-cl-cpp-extension-py
+
+https://github.com/deepspeedai/DeepSpeed/issues/4729
+
+https://github.com/deepspeedai/DeepSpeed/issues/3145
+
+https://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md
+
+https://github.com/deepspeedai/DeepSpeed#windows
+
+https://github.com/deepspeedai/DeepSpeed/issues/6923
+
+### Solution
+https://github.com/deepspeedai/DeepSpeed/issues/6923
