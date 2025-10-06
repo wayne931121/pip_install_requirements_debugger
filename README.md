@@ -425,5 +425,7 @@ https://github.com/deepspeedai/DeepSpeed#windows
 
 https://github.com/deepspeedai/DeepSpeed/issues/6923
 
+https://www.google.com/search?q=No+module+named+build&oq=No+module+named+build&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMgYIAhAAGB4yBggDEAAYHjIGCAQQABgeMgYIBRAAGB4yBggGEAAYHjIGCAcQABgeMggICBAAGAUYHjIICAkQABgFGB7SAQc0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
 ### Main Solution
 http://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md#building-from-source
