@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16b52f72-733a-428d-aaf4-18d1373b581b" /># pip_install_requirements_debugger
+# pip_install_requirements_debugger
 when i install rvc requirements.txt today(20250929), i failed, so i wrote this script for me.
 
 # Usage
