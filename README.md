@@ -278,3 +278,124 @@ import torch
 #if nothing happen, no error, then output No bug.
 print("No Bug.")
 ```
+
+# Some other errors record
+```cmd
+C:\Users\原神>D:
+
+D:\>conda activate D://aii
+
+(D:\aii) D:\>python "C:\Users\原神\Desktop\神秘資料夾\idebug.py" "C:\Users\原神\Downloads\requirements (1).txt"
+pip install diffusers>=0.32.1
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install accelerate>=1.1.1
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install transformers>=4.46.2
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install numpy==1.26.0
+
+    STDOUT: Collecting numpy==1.26.0
+  Downloading numpy-1.26.0-cp310-cp310-win_amd64.whl.metadata (61 kB)
+Downloading numpy-1.26.0-cp310-cp310-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 25.5 MB/s  0:00:00
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.4
+    Uninstalling numpy-1.26.4:
+      Successfully uninstalled numpy-1.26.4
+Successfully installed numpy-1.26.0
+
+    STDERR: ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+opencv-contrib-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.0 which is incompatible.
+opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.0 which is incompatible.
+
+
+
+pip install torch>=2.5.0
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install torchvision>=0.20.0
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install sentencepiece>=0.2.0
+
+    STDOUT:
+    STDERR: EMPTY
+
+
+pip install SwissArmyTransformer>=0.4.12
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error occurred:
+SwissArmyTransformer>=0.4.12
+STDOUT:
+STDERR:   error: subprocess-exited-with-error
+
+  python setup.py egg_info did not run successfully.
+  exit code: 1
+
+  [31 lines of output]
+  test.c
+  LINK : fatal error LNK1181: 無法開啟輸入檔 'aio.lib'
+  Traceback (most recent call last):
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 405, in cpu_arch
+      from cpuinfo import get_cpu_info
+  ModuleNotFoundError: No module named 'cpuinfo'
+
+  During handling of the above exception, another exception occurred:
+
+  Traceback (most recent call last):
+    File "<string>", line 2, in <module>
+    File "<pip-setuptools-caller>", line 35, in <module>
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\setup.py", line 201, in <module>
+      ext_modules.append(builder.builder())
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 713, in builder
+      {'cxx': self.strip_empty_entries(self.cxx_args()), \
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 854, in cxx_args
+      CPU_ARCH = self.cpu_arch()
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 407, in cpu_arch
+      cpu_info = self._backup_cpuinfo()
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 439, in _backup_cpuinfo
+      if not self.command_exists('lscpu'):
+    File "C:\Users\原神\AppData\Local\Temp\pip-install-kth18s88\deepspeed_aecc237abedd4943a0419c3a01b0b14c\op_builder\builder.py", line 497, in command_exists
+      result = subprocess.Popen(safe_cmd, stdout=subprocess.PIPE)
+    File "D:\aii\lib\subprocess.py", line 971, in __init__
+      self._execute_child(args, executable, preexec_fn, close_fds,
+    File "D:\aii\lib\subprocess.py", line 1440, in _execute_child
+      hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  FileNotFoundError: [WinError 2] 系統找不到指定的檔案。
+  DS_BUILD_OPS=1
+   [WARNING]  Skip pre-compile of incompatible async_io; One can disable async_io with DS_BUILD_AIO=0
+  [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+
+(D:\aii) D:\>
+```
