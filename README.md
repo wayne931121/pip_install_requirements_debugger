@@ -427,14 +427,24 @@ https://github.com/deepspeedai/DeepSpeed/issues/6923
 
 https://www.google.com/search?q=No+module+named+build&oq=No+module+named+build&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMgYIAhAAGB4yBggDEAAYHjIGCAQQABgeMgYIBRAAGB4yBggGEAAYHjIGCAcQABgeMggICBAAGAUYHjIICAkQABgFGB7SAQc0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-### Main Solution
-http://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md#building-from-source
+### $${\color{red}Solution}$$
+1. https://stackoverflow.com/questions/73264234/pytorch-error-checking-compiler-version-for-cl-cpp-extension-py
 
-### Problem2
+<img width="877" height="462" alt="image" src="https://github.com/user-attachments/assets/607ceece-88fb-48e9-be94-9d2077ac7739" />
+
+2. http://github.com/deepspeedai/DeepSpeed/blob/master/blogs/windows/08-2024/README.md#building-from-source
+
+<img width="1121" height="225" alt="image" src="https://github.com/user-attachments/assets/7a85bf5c-77a9-42b4-8a6b-e38229327dc9" />
+
+
+### $${\color{red}Problem2}$$
 https://github.com/neonbjb/tortoise-tts/issues/556
 
-### Solution2
+### $${\color{red}Solution2}$$
 https://github.com/neonbjb/tortoise-tts/issues/556#issuecomment-1883569462
+
+<img width="926" height="433" alt="image" src="https://github.com/user-attachments/assets/f349ab98-44e2-460b-be07-cdc9d1392a35" />
+
 
 ### Finally
 after success build and install deepspeed, run ```pip install SwissArmyTransformer``` success.
