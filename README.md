@@ -452,4 +452,4 @@ after success build and install deepspeed, run ```pip install SwissArmyTransform
 
 
 ## Error2 Record
-No moudle name torch in notebook? My problem is my notebook installed in cpmputer, but not install in current conda env, so solution is ```pip install notebook```.
+No moudle name torch in notebook? My problem is my notebook installed in computer, but not install in current conda env, so solution is ```pip install notebook```.
