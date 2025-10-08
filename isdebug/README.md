@@ -1,4 +1,4 @@
-https://pypi.org/project/isdebug <br>
+This file is used for https://pypi.org/project/isdebug <br>
 This file is from: https://github.com/wayne931121/pip_install_requirements_debugger
 
 # pip_install_requirements_debugger
@@ -281,4 +281,5 @@ import torch
 #if nothing happen, no error, then output No bug.
 print("No Bug.")
 ```
+
 
