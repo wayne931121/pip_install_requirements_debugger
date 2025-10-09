@@ -5,7 +5,7 @@ when i install rvc requirements.txt today(20250929), i failed, so i wrote this s
 
 https://github.com/wayne931121/pip_install_requirements_debugger/blob/main/isdebug/README.md
 
-# Usage (without install)
+# Usage (without installed)
 ```
 python idebug.py requirements.txt
 ```
