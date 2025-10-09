@@ -4,6 +4,15 @@ This file is from: https://github.com/wayne931121/pip_install_requirements_debug
 # pip_install_requirements_debugger
 when i install rvc requirements.txt today(20250929), i failed, so i wrote this script for me.
 
+# Install
+```cmd
+pip install https://github.com/wayne931121/pip_install_requirements_debugger/releases/download/0.0.1/isdebug-0.0.1.tar.gz
+```
+or
+```cmd
+pip install isdebug
+```
+
 # Usage
 ```
 python -m idebug requirements.txt
@@ -281,5 +290,6 @@ import torch
 #if nothing happen, no error, then output No bug.
 print("No Bug.")
 ```
+
 
 
