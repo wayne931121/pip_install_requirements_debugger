@@ -1,7 +1,11 @@
 # pip_install_requirements_debugger
 when i install rvc requirements.txt today(20250929), i failed, so i wrote this script for me.
- 
-# Usage
+
+# Install
+
+https://github.com/wayne931121/pip_install_requirements_debugger/blob/main/isdebug/README.md
+
+# Usage (without install)
 ```
 python idebug.py requirements.txt
 ```
